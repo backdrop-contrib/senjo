@@ -1,0 +1,15 @@
+/**
+ * @file
+ * Styles for Senjo Layout
+ */
+
+/**
+ * Fix for elements not doing well with border-box box-sizing.
+ */
+.tabledrag-handle .handle,
+.mceToolbar table td a {
+  box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  -o-box-sizing: content-box;
+}
